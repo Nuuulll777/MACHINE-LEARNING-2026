@@ -252,10 +252,16 @@ Slope ($b_1$) ≈ 1.6667
 
 MAE test: 0.0889 °C
 
-Karena $y_i$ dan $\hat{y}_i$ sama-sama dalam satuan °C, maka hasil MAE juga tetap dalam satuan °C.
-Artinya, nilai MAE = 0.0889 °C menunjukkan bahwa:
-Secara rata-rata, prediksi model menyimpang sebesar 0.0889 derajat Celsius dari temperatur sebenarnya pada data testing.
-Semakin kecil nilai MAE, semakin akurat model dalam memprediksi temperatur.
+ MAE dalam satuan °C berarti rata-rata kesalahan prediksi dalam derajat
+ Celsius.
+
+ Artinya: Secara rata-rata, prediksi model meleset sekitar 0.09 derajat
+ Celsius dari temperatur sebenarnya.
+
+ - MAE = 0.09 °C → sangat akurat (meleset kurang dari 0.1 derajat)
+
+ Kesimpulan: MAE = 0.09 °C artinya model sangat akurat, rata-rata cuma
+ meleset 0.09 derajat dari temperatur sebenarnya.
 
 ---
 
